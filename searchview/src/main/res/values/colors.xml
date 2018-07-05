@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff5f5f5</color>
+    <color name="colorPrimaryDark">#ff757575</color>
+    <!-- <color name="colorAccent">#8FBC8F</color> -->
+     <color name="colorAccent">?attr/colorAccent</color>
+     <color name="app_bg">#FFF0F0F0</color>
+     <color name="transparent">#00000000</color><!--透明色 -->
+    <color name="money">#ff7900</color>
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="green_press_color">#008a47</color>
+    <color name="red">#FF0000</color><!--红色 -->
+    <color name="lightred">#FFEC4848</color><!--红色 -->
+    <color name="color_light_blue">#00DDB6</color>
+    <color name="txt_color">#48495F</color>
+    <color name="item_bg">#FFFFFF</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="spinner_bg">#333244</color>
+    <color name="new_text_color">#555771</color>
+    <color name="white_text_color">#F0F0F0</color>
+    <color name="gray_color">#4b4b58</color>
+    <color name="hard_color">#48495f</color>
+    <color name="clickspan_color">#00ddb6</color>
+    <color name="dull_blue">#3B4BBF</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="light_black">#666666</color>
+    <color name="title_color">#333333</color>
+</resources>

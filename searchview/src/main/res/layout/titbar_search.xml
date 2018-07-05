@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/recommend_search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:layout_weight="1"
+            android:background="@drawable/edit_search_black_line"
+
+            android:orientation="horizontal">
+
+
+            <com.tools.fj.searchview.ClearEditText
+                android:id="@+id/ClearEditText_search"
+                inputType="textNoSuggestions"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/dp_6"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableLeft="@mipmap/ic_search_gery"
+                android:drawablePadding="@dimen/dp_6"
+                android:dropDownWidth="match_parent"
+                android:hint=""
+                android:imeOptions="actionSearch"
+                android:paddingLeft="@dimen/dp_10"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/atv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_delete"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="历史纪录"
+            android:textSize="@dimen/sp_16" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp_22"
+            android:src="@mipmap/ic_delete" />
+
+
+    </LinearLayout>
+
+
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_marginTop="@dimen/dp_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="@dimen/dp_1"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/dp_1" />
+
+</LinearLayout>
