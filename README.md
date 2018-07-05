@@ -1,7 +1,9 @@
-# master 仿今日头条搜索控件
+# 仿今日头条搜索控件
 
 如何使用
 Step 1. Add the JitPack repository to your build file
+
+
 	allprojects {
 		repositories {
 			...
